@@ -21,3 +21,6 @@ auto1 = autos("Toyota", "Corolla", 2020)
 
 print(auto1.descripcion())
 print(f"Antigüedad: {auto1.antiguedad()} años")
+
+
+
