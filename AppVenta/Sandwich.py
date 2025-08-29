@@ -10,13 +10,14 @@ class Sandwich:
         return self.precio
     
     #setter
-    def set_precio(self,nuevo_precio)
+    def set_precio(self,nuevo_precio):
         if nuevo_precio > 0:
             self.__precio = nuevo_precio
 
         else:
             print("el nuevo precio debe ser mayor que 0")
 
+    #metodo con polimorfismo
     def descripcion(self):
         return f"Sandwich con {self.pan}"
     
